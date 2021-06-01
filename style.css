@@ -1,14 +1,21 @@
-* {
+*{
   margin: 0;
   padding: 0;
   list-style: none;
   text-decoration: none;
 }
 
+#container{
+  width: 84%;
+  max-width: 1280px;
+  min-width: 512px;
+  margin: 0 auto;
+}
+
 header {
    position:relative;
    height: 8rem;
-   background: #333;
+   background: #FFD5EC;
    box-shadow: 0 4px 0.3125rem rgba(0,0,0,.3);
  }
 
@@ -19,31 +26,29 @@ header {
     font-size: 2rem;
     color: white;
   }
-
-  nav {
+nav{
     position: absolute;
-    top: 2rem;
-    right: 2rem;
-    background: #333;
+    top: 5rem;
+    right: 1rem;
+    font-size: 1rem;
+      background: #FFD5EC;
   }
 
-    nav ul{
-      display: flex;
-      flex-direction: row;
-    }
 
-    nav ul li{
-      margin-right: 2rem;
-    }
+  nav ul{
+    display: flex;
+    flex-direction: row;
+  }
 
-    nav ul li a {
-      color: white;
-    }
+  nav ul li{
+    margin-right: 2rem;
+  }
+
+  nav ul li a {
+    color: #E0FFFF;
+  }
 
 main{
-  width: 60%;
-  max-width: 1280px;
-  margin: 0 auto;
   display: flex;
   flex-direction: row;
 }
@@ -64,12 +69,12 @@ main{
   aside{
     flex: 1;
     padding: 3rem;
-    background: #DDD;
+    background: #E0FFFF;
   }
 
 footer {
   padding: 2rem 3rem;
   text-align: center;
-  background: #333;
+  background: #FFD5EC;
   color: white;
 }
